@@ -17,5 +17,5 @@ build:
     - java -version
     - echo $SHIPPABLE_JDK_VERSION
     - mvn --version    
-    - ant -version 
+    #- ant -version 
     - gradle --version
