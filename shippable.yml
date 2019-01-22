@@ -4,7 +4,7 @@ runtime:
   nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
   
 jdk:
-#  - openjdk7
+  - openjdk7
   - openjdk8
   - openjdk9
   - openjdk10
@@ -14,7 +14,7 @@ jdk:
 build:
   pre_ci_boot:
     image_name: drydock/u14javall
-    image_tag: v6.8.4
+    image_tag: v6.9.4
     pull: true
     
   ci:
